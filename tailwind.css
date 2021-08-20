@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    
+    h1{
+        @apply font-normal text-5xl tracking-widest
+      }
+    .ozel-font{
+        @apply text-2xl
+    }
+    h5{
+        @apply font-normal text-lg tracking-wide
+    }
+    .p-font{
+        @apply font-normal text-xs 
+    }
+    .menu{
+        @apply py-4 px-3  text-gray-400 font-custom hover:text-gray-700 transition duration-300 hover:border-b-4 hover:border-green-500
+    }
+    .btn{
+        @apply py-2 px-4 font-medium text-white rounded-full bg-ozelgradient  hover:bg-hoverozelgradient font-custom text-base
+    }
+    .card__title{
+        @apply text-left font-custom pt-8
+    }
+    .card__text{
+        @apply text-left pt-5 text-gray-500
+    }
+    .card__titleMobile{
+        @apply text-center font-custom pt-8
+    }
+    .card__textMobile{
+        @apply text-center pt-5 text-gray-500
+    }
+    .card2__title{
+        @apply font-custom pt-9 pl-6 p-font text-fcolor
+    }
+    .card2__text{
+        @apply text-left font-custom pt-3 pl-6 hover:text-green-600
+    }
+    .card2__text2{
+        @apply text-left pt-5  pl-2 p-font pb-10 text-fcolor
+    }
+    .card2__text2Mobile{
+        @apply text-justify pt-5 mx-5  pl-2 p-font pb-10 text-fcolor
+    }
+    .card__round{
+        @apply rounded-t-md h-48
+    }
+    .footer__svg{
+        @apply hover:fill-current hover:text-iconColor
+    }
+    .footer__title{
+        @apply text-white hover:text-green-600
+    }
+    .homeImage{
+        @apply hidden lg:block
+    }
+    .homeImageMobile{
+        @apply block lg:hidden
+    }
+    
+}
